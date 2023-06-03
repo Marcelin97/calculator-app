@@ -19,25 +19,128 @@
     />
     <link rel="stylesheet" href="/dist/style.css" />
   </head>
-  
+
   <body>
     <div class="grid">
       <main class="grid__main">
-        <h1>Calcultatrice</h1>
+        <h1>Calculatrice</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sequi
-          modi vero! Iste voluptates explicabo aperiam quam quos enim saepe, sint
-          temporibus consectetur, facilis fuga ipsum dicta neque repellat. Nam!
+          modi vero! Iste voluptates explicabo aperiam quam quos enim saepe,
+          sint temporibus consectetur, facilis fuga ipsum dicta neque repellat.
+          Nam!
         </p>
+        <div class="app">
+          <div class="calculator">
+            <div class="display">
+              <div class="content">
+                <div class="input"></div>
+                <div class="output"></div>
+              </div>
+            </div>
+
+            <div class="keys">
+              <div data-key="clear" class="key action">
+                <span>AC</span>
+              </div>
+              <div data-key="brackets" class="key action">
+                <span>()</span>
+              </div>
+              <div data-key="%" class="key action">
+                <span>%</span>
+              </div>
+              <div data-key="/" class="key operator">
+                <span>÷</span>
+              </div>
+
+              <div data-key="7" class="key">
+                <span>7</span>
+              </div>
+
+              <div data-key="8" class="key">
+                <span>8</span>
+              </div>
+
+              <div data-key="9" class="key">
+                <span>9</span>
+              </div>
+
+              <div data-key="*" class="key operator">
+                <span>x</span>
+              </div>
+
+              <div data-key="4" class="key">
+                <span>4</span>
+              </div>
+
+              <div data-key="5" class="key">
+                <span>5</span>
+              </div>
+
+              <div data-key="6" class="key">
+                <span>6</span>
+              </div>
+
+              <div data-key="-" class="key operator">
+                <span>-</span>
+              </div>
+
+              <div data-key="1" class="key">
+                <span>1</span>
+              </div>
+
+              <div data-key="2" class="key">
+                <span>2</span>
+              </div>
+
+              <div data-key="3" class="key">
+                <span>3</span>
+              </div>
+
+              <div data-key="+" class="key operator">
+                <span>+</span>
+              </div>
+
+              <div data-key="backspace" class="key action">
+                <span>&lt;</span>
+              </div>
+
+              <div data-key="0" class="key">
+                <span>0</span>
+              </div>
+
+              <div data-key="." class="key">
+                <span>.</span>
+              </div>
+
+              <div data-key="=" class="key operator">
+                <span>=</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
       <aside class="grid__sidebar">
-        <h2>More Info</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum
-          maiores ullam molestiae pariatur molestias sunt sapiente possimus aut
-          doloremque nostrum harum, delectus explicabo neque officia obcaecati
-          optio magni a.
-        </p>
+        <div class="grid__widget green">
+          <h2>More Info</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum
+            maiores ullam molestiae pariatur molestias sunt sapiente possimus
+            aut doloremque nostrum harum, delectus explicabo neque officia
+            obcaecati optio magni a.
+          </p>
+        </div>
+        <div class="grid__widget magenta">
+          <h2>Check out this cool thing !</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum
+            maiores ullam molestiae.
+          </p>
+        </div>
+        <div class="grid__widget">
+          <h2>More cool stuff is right here too !</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
       </aside>
     </div>
 
